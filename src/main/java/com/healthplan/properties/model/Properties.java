@@ -44,4 +44,9 @@ public class Properties extends Base {
     @NotNull
     @Column(name = "refund")
     private double refund;
+
+    @NotNull
+    @Column(name = "status")
+    private int status;
+
 }
